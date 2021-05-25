@@ -6,7 +6,7 @@
 /*   By: dtanigaw <dtanigaw@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/27 14:03:40 by dtanigaw          #+#    #+#             */
-/*   Updated: 2021/05/24 23:07:47 by dtanigaw         ###   ########.fr       */
+/*   Updated: 2021/05/25 04:44:01 by dtanigaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,12 +63,6 @@ void	ft_print_space(t_flags *arg, int len)
 		space--;
 	if (space > 0)
 		ft_putnchar(arg, ' ', space);
-}
-
-void	ft_print_plus(t_flags *arg)
-{
-	if (arg->plus)
-		ft_putnchar(arg, '+', 1);
 }
 
 void	ft_process_pos_nbr(t_flags *arg, long n)

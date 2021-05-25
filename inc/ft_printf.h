@@ -6,7 +6,7 @@
 /*   By: dtanigaw <dtanigaw@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/04/15 16:25:30 by dtanigaw          #+#    #+#             */
-/*   Updated: 2021/05/24 06:18:37 by dtanigaw         ###   ########.fr       */
+/*   Updated: 2021/05/25 04:44:05 by dtanigaw         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -57,6 +57,7 @@ void	ft_print_di_l(t_flags *arg, int n, long l);
 void	ft_print_hex(t_flags *arg, size_t nb, char *base);
 void	ft_print_oct(t_flags *arg, unsigned int nb);
 void	ft_print_p(t_flags *arg, size_t nb);
+void	ft_print_plus(t_flags *arg);
 void	ft_print_space(t_flags *arg, int len);
 void	ft_print_u(t_flags *arg, unsigned int nb);
 void	ft_print_zero(t_flags *arg, int len);
@@ -76,6 +77,7 @@ void	ft_process_pos_nbr_umax(t_flags *arg);
 void	ft_process_u(va_list ap, t_flags *arg);
 void	ft_process_x(va_list ap, t_flags *arg);
 void	ft_process_x2(va_list ap, t_flags *arg);
+void	ft_putchar_res(t_flags *arg, char c);
 void	ft_putnbr_res(t_flags *arg, long long int nb);
 void	ft_putnchar(t_flags *arg, int c, size_t n);
 void	ft_putnstr(t_flags *arg, char *s, int n);
